@@ -26,6 +26,10 @@ ng serve -o
 ```
 
 ```sh
-ng new [workspaceName]
+ng new [workspace_name]
+```
+
+```sh
+ng generate component [component_name]
 ```
 
