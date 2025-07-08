@@ -1,0 +1,12 @@
+<h2>{{ title }}</h2>
+
+@for(user of users; track user.id)
+{
+    <app-user-card [user]="user"></app-user-card>
+}
+
+<p [hidden]="hidden">Hidden</p>
+
+<div>
+    <button (click)="clickMe()">Click Me!</button>
+</div>
